@@ -8,6 +8,15 @@ git config --global user.name "Susan Herdina"
 git config --global user.email sreherdina@yahoo.com
 
 
+set up ssh key
+
+	once ever: create a key using: 
+		ssh-keygen -t -rsa -C "sreherdina@yahoo.com"
+
+	For each new machine, copy the file:
+		~/.ssh/id_rsa and id_rsa.pub
+
+
 Once to start a new project
 ------------------------------------
 
@@ -18,7 +27,7 @@ To create a new local git repo:
 	git init
 
 
-put something in it
+put something in the repo
 
 	<create README file>
 	git add README.txt
@@ -27,9 +36,11 @@ put something in it
 			git add .	- current dir and everything under it.
 					- these are both the same
 		)
-	git commit -m message
+	git commit -m "message"    - the quotes mean we can use spaces in the message
 	
-
+	git 
 
 Then to make a copy of that repo on github
+
+
 
