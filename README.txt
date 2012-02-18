@@ -21,6 +21,15 @@ To create a new local git repo:
 put something in it
 
 	<create README file>
+	git add README.txt
+		(or
+			git add *    - all files and dirs in current dir
+			git add .	- current dir and everything under it.
+					- these are both the same
+		)
+	git commit -m message
 	
+
+
 Then to make a copy of that repo on github
 
